@@ -1,24 +1,5 @@
-# vue-plugin
+# vue2.x router store source
 
-## Project setup
-```
-npm install
-```
+## readme
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- https://gitee.com/jw-speed/jiagouke2-vue/blob/master/7.vue-router/vue-router/index.js
