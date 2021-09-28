@@ -1,16 +1,18 @@
 <template>
   <div>
-    <router-link to="/a">A</router-link>
-    <router-link>B</router-link>
+    <router-link to="/">首页</router-link>
+    <router-link to="/about">关于</router-link>
     <hr />
-    <router-view></router-view>
+    <router-view a="1" b="2"></router-view>
   </div>
 </template>
 
 <script>
 export default {
   name: "App",
-  components: {},
+  mounted() {
+    console.log(this._routerRoot);
+  },
 };
 </script>
 
