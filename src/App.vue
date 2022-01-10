@@ -10,9 +10,6 @@
 <script>
 export default {
   name: "App",
-  mounted() {
-    console.log(this._routerRoot);
-  },
 };
 </script>
 

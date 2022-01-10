@@ -34,9 +34,10 @@ const router = new VueRouter({
 });
 
 router.beforeEach((from, to, next) => {
-  setTimeout(() => {
-    next();
-  }, 1000);
+  console.log("router.beforeEach");
+  next();
+  // setTimeout(() => {
+  // }, 1000);
 });
 
 export default router;
